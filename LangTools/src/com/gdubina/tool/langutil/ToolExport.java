@@ -75,7 +75,7 @@ public class ToolExport {
 	}
 	
 	private void export(File project) throws SAXException, IOException{
-		File res = new File(project, "res");
+		File res = new File(project, "src/main/res");
 		if (res == null || !res.exists()) {
 			System.out.println("res folder doesn't exists");
 			return;

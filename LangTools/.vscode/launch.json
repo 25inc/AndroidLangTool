@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) export with Args",
+            "request": "launch",
+            "mainClass": "com.gdubina.tool.langutil.Tool",
+            "args": "-e ~/home/projects/twentyfive/gannhaapp-android/gannha ~/Desktop/result.xls"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Tool<LangTools>",
+            "request": "launch",
+            "mainClass": "com.gdubina.tool.langutil.Tool",
+            "projectName": "LangTools"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ToolExport<LangTools>",
+            "request": "launch",
+            "mainClass": "com.gdubina.tool.langutil.ToolExport",
+            "projectName": "LangTools"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ToolImport<LangTools>",
+            "request": "launch",
+            "mainClass": "com.gdubina.tool.langutil.ToolImport",
+            "projectName": "LangTools"
+        }
+    ]
+}
